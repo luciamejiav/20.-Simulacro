@@ -12,7 +12,8 @@
 <!ENTITY euro   "&#8364;">
 ]>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-	<xsl:output method="html" encoding="utf-8" doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN" doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"/>
+	<xsl:output method="html" encoding="utf-8" doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN" 
+	doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"/>
 	<xsl:template match="/">
 		
 		<html lang="en">
@@ -72,7 +73,6 @@
 											</div>
 										</div>
 									</xsl:for-each>
-									
 								</div>
 							</p>
 						</div>
@@ -83,6 +83,7 @@
 				<footer class="bg-danger text-center">
 					<h3 class="text-white py-3">Telepizza - Azarquiel</h3>
 				</footer>
+				
 				<!-- Bootstrap JavaScript Libraries -->
 				<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
 					integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
